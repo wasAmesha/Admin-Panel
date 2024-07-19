@@ -1,0 +1,170 @@
+.add-admin-container {
+    max-width: 500px;
+    padding: 15px;
+    margin-left: 625px;
+  }
+  
+  .add-admin-container .add-admin-content {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid #393a39;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(66, 135, 87, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .add-admin-container .add-admin-image {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .add-admin-container .add-admin-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .add-admin-container .add-admin-form {
+    flex: 2;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .add-admin-container .add-admin-form h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  .add-admin-container .profile-picture-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-admin-container .add-admin-profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .add-admin-container .custom-file-input {
+    background-color: #d5dcd5;
+    color: rgb(0, 0, 0);
+    padding: 3px 6px;
+    border: 1px solid rgb(130, 130, 130);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-admin-container .add-admin-fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-admin-container .profile-detail {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .add-admin-container label {
+    font-weight: bold;
+  }
+  
+  .add-admin-container input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-admin-container input[type="text"]:hover,
+  input[type="email"]:hover,
+  input[type="password"]:hover {
+    border: 2px solid #1aa644;
+  }
+  
+  .add-admin-container input:focus {
+    border-color: #1aa644;
+    box-shadow: 0 0 0 0.2rem rgba(0, 204, 3, 0.25);
+  }
+  
+  .add-admin-container .add-admin-button-container {
+    text-align: center;
+  }
+  
+  .add-admin-container .add-admin-button {
+    background-color: #328335;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .add-admin-container .add-admin-button:disabled {
+    background-color: #900606;
+  }
+  
+  .add-admin-container .add-admin-button:hover:enabled {
+    background-color: #000000;
+  }
+  
+  .add-admin-container .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .add-admin-container .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-admin-container .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .add-admin-container .close-modal-button {
+    background-color: #328335;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

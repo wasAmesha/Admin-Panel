@@ -1,0 +1,251 @@
+.admin-review .review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 60px;
+    color: black;
+    
+  }
+  
+  .admin-review .main-topic {
+    margin-bottom: 20px;
+    color: rgb(7, 92, 33);
+    position: absolute;
+    top: 20px;
+    left: 275px;
+    font-weight: 600;
+    
+  }
+  
+  .admin-review .review-border {
+    position: relative;
+    width: 800px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc; /* Thin top border */
+    border-bottom: 1px solid #ccc; /* Thin bottom border */
+    border-left: 10px solid rgb(105, 161, 79); /* Thicker left border */
+    /*border-right: 5px solid rgb(9, 132, 67); /* Thicker right border */
+    border-right: 1px solid #ccc;
+    border-radius: 10px; 
+  }
+  
+  .admin-review .review-block {
+    padding: 20px;
+  }
+  
+  .admin-review .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .admin-review .space-row {
+    height: 20px;
+  }
+  
+  .admin-review .user-review {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #a0a0a0;
+  }
+  
+  .admin-review .review-border:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Specify normal color for top and bottom borders */
+  .admin-review .review-border::before,
+  .review-border::after {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    width: 1px;
+    background-color: #ccc; 
+  }
+  
+  .admin-review .review-date {
+   font-size: 10px;
+   color: #a0a0a0;
+  }
+  
+  .admin-review .clear-button {
+    position: absolute;
+    top: 30px;
+    right: 10px; 
+    width: 100px; 
+    height: 30px; 
+    padding: 5px; 
+    background-color: #07703b; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .admin-review .clear-button:hover {
+    background-color: #7dd16a; 
+  }
+  .admin-review .show-button{
+    border-radius: 10px;
+    height: 35px;
+    font-size: 15px;
+    color: rgb(13, 14, 15);
+  
+  }
+  .admin-review .review-image {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+    border: 2px solid rgb(69, 109, 58);
+    box-shadow: #055f2d;
+  }
+  
+  .admin-review .review-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  .admin-review .review-header {
+    display: flex;
+    align-items: center; 
+    font-size: 12px;
+  }
+  .admin-review .delete-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(102, 165, 98);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+  }
+  .admin-review .delete-button:hover{
+    color: rgb(233, 62, 62);
+  }
+  
+  /*Add this style for the colored circle 
+  .admin-review .review-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }*/
+  .admin-review .more-details{
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+    color: #07703b;
+  }
+  .admin-review .more-details:hover::after {
+    content: "View Details";
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: whitesmoke;
+    color: #4aca0e;
+    font-size: 10px;
+    width: 60px;
+    height: 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    
+  }
+  .admin-review .date-filter-dropdown{
+    position: absolute;
+    top: 20px;
+    right: 600px; 
+    padding: 5px; 
+    width: 170px;
+    border: 5px;
+    font-size: 15px;
+  }
+  .admin-review .type-filter-dropdown{
+    position: absolute;
+    top: 20px;
+    right: 800px; 
+    padding: 5px; 
+    width: 170px;
+    border: 5px;
+    font-size: 15px; 
+  }
+  /*
+  .admin-review .total-reviews{
+    position: absolute;
+    top: 30px;
+    right: 300px; 
+    padding: 5px; 
+    width: 170px;
+    border: 5px;
+    font-size: 15px; 
+  
+  }*/
+  .admin-review .total-reviews {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 3px;
+    right: 300px; 
+    padding: 5px; 
+    width: 250px;
+    border: 5px;
+    font-size: 15px;
+  }
+  
+  .admin-review .total-reviews-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #055f2d; /* Change the color as needed */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    top: 3px;
+  }
+  
+  .admin-review .total-reviews span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .admin-review .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .admin-review .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+  }
+  

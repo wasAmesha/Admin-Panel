@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "js-cookie": "^3.0.5",
+    "multer": "^1.4.5-lts.1",
+    "react-cookie": "^7.1.4",
+    "react-router-dom": "^6.23.1",
+    "react-toastify": "^10.0.5"
+  }
+}

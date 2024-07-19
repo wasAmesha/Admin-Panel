@@ -1,0 +1,132 @@
+/* styles.css */
+
+.add-product-form {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  align-content: center;
+  /*margin-top: 100px;*/
+  margin-left: 670px;
+  position: relative;
+}
+
+.add-product-form h2 {
+  margin-bottom: 20px;
+}
+
+.add-product-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-form label {
+  margin-bottom: 5px;
+}
+
+.add-product-form .input-field {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-product-form .submit-btn {
+  padding: 10px;
+  background-color: #118634;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /*margin-top: 20px;*/
+}
+
+.add-product-form .submit-btn:hover {
+  background-color: #68d189;
+}
+
+.add-product-form .message {
+  margin-top: 10px;
+  color: green;
+}
+
+.add-product-form .image-preview-img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.add-product-form .empty-image-preview {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-product-form .empty-image-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: #f1f1f1;
+  margin: 0 auto 10px;
+  margin-bottom: 20px;
+}
+
+.add-product-form .modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.add-product-form .modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+/* addProduct.css */
+
+.add-product-form .edit-delete-buttons {
+  margin-top: 20px;
+}
+
+.add-product-form .edit-btn,
+.delete-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-product-form .edit-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+}
+
+.add-product-form .delete-btn {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+}
+
+.add-product-form .edit-btn:hover,
+.delete-btn:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+

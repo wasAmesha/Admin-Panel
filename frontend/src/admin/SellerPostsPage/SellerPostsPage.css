@@ -1,0 +1,35 @@
+.admin-seller-posts .nothing-seller-order {
+    padding-bottom: 100px;
+  }
+
+  .admin-seller-posts .delete-button-container {
+    display: flex; 
+    justify-content: center; 
+  }
+  
+
+  .admin-seller-posts .delete-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #000000; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .admin-seller-posts .delete-button:hover {
+    background-color: #c82333; 
+  }
+  
+  .admin-seller-posts .delete-button:focus {
+    outline: none; 
+  }
+  
+  .admin-seller-posts .delete-button .fa-trash {
+    margin-right: 8px; 
+  }
+  

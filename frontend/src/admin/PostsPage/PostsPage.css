@@ -1,0 +1,252 @@
+.postsContainer {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 20px;
+    width: 80%;
+  }
+
+  .postsContainer h1{
+    font-weight: 600;
+  }
+
+  .postsContainer .listContainer {
+    height: 495px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+
+  .postsContainer .labelRow {
+    /* Your existing styles */
+    position: sticky; /* Add this */
+    top: 0; /* Add this */
+    background-color: white; /* Add this if necessary */
+  }
+
+  .postsContainer .postTable th {
+    background-color: #f2f2f2;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .postsContainer .postTable {
+    margin-top: 20px;
+    width: 1150px;
+    border-collapse: collapse;
+  }
+  
+  .postsContainer .postTable th,
+  .postTable td {
+    padding: 8px;
+    border-top: 1px solid #ddd; /* Light gray border on top of each cell */
+  }
+  
+  .postsContainer .postTable td {
+    height: 50px;
+  }
+
+  .postsContainer .postTable th:first-child,
+  .postTable td:first-child {
+    border-left: none; /* Remove left border for the first column */
+  }
+  
+  .postsContainer .postTable th:first-child,
+  .postTable td:first-child {
+    height: 0px; /* change height of label row */
+  }
+  
+
+  .postsContainer .postTable th:last-child,
+  .postTable td:last-child {
+    border-right: none; /* Remove right border for the last column */
+  }
+  
+  .postsContainer .postTable tr:first-child th,
+  .postTable tr:first-child td {
+    border-top: none; /* Remove top border for the first row */
+  }
+  
+  .postsContainer .postTable tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+  }
+  
+  .postsContainer .labelRow td {
+    max-height: 0px;
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+  .postsContainer .postRow:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+  }
+  
+  .postsContainer .selected {
+    background-color: #cce5cc; /* Light green */
+  }
+  
+  .postsContainer .rowSeparator td {
+    border-bottom: 1px solid #ccc; /* Light gray */
+  }
+  
+  .postsContainer .viewIcon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #19ab33;
+  }
+  
+  .postsContainer .deleteIcon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #19ab33;
+  }
+  
+  .postsContainer .viewIcon:hover {
+    color: #252926;
+  }
+  
+  .postsContainer .deleteIcon:hover {
+    color: #e32609;
+  }
+  
+  .postsContainer .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* PostsPage.css */
+
+.postsContainer .productImage {
+    width: 60px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .postsContainer .productImage:hover {
+    transform: scale(1.5); /* Adjust the scaling factor as needed */
+  }
+
+  .postsContainer .vehicleImage {
+    width: 60px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .postsContainer .vehicleImage:hover {
+    transform: scale(1.5); /* Adjust the scaling factor as needed */
+  }
+
+  .postsContainer .filterContainer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .postsContainer .filterContainer label {
+    margin-right: 10px;
+  }
+  
+  .postsContainer .filterContainer select {
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #287b26; /* Dark background color */
+    color: white; /* White text color */
+    margin-bottom: 10px;
+  }
+  
+  .postsContainer .filterContainer select option {
+    background-color: #ffffff; /* Dark background color */
+    color: rgb(43, 41, 41); /* White text color */
+  }
+  
+  .postsContainer .filterContainer select option:hover {
+    background-color: black; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+
+  .postsContainer .searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*
+    justify-content: space-between;*/
+    width: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 530px;
+  }
+
+  .postsContainer .searchIcon {
+    margin-top: 5px;
+    margin-right: 10px; /* Adjust the space between icon and label */
+  }
+  
+  .postsContainer .searchContainer label {
+    margin-right: 10px; /* Adjust the space as needed */
+    margin-top: 8px; /* Adjust the top margin for the label */
+    margin-right: 20px;
+  }
+  
+  .postsContainer .searchContainer input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    width: 120px; /* Adjust the width as needed */
+  }
+  
+  .postsContainer .searchContainer input[type="text"]:focus {
+    border-color: #068a17;
+    outline: none;
+  }
+  
+  .postsContainer .clearButton {
+    background-color: #606160;
+    color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 3px 5px;
+    width: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .postsContainer .clearButton:hover {
+    background-color: #353232;
+  }
+
+  .postsContainer .clearButtonContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .postsContainer .clearButtonContent span {
+    margin-left: 5px; /* Adjust the spacing between icon and text */
+  }
+  
+  .postsContainer .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .postsContainer .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+  }

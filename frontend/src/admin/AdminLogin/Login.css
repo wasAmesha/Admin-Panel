@@ -1,0 +1,123 @@
+.login-main-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /*padding: 50px 50px 50px 10px;*/
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  
+  .login-main-container .login-inner-container {
+    width: 50%; /* Take up half of the container */
+    padding: 40px 65px 50px 65px; /* Add some spacing */
+    background-color: #D5FB97;
+    border-radius: 0 10px 10px 0;
+    /*margin: -50px 0px -50px -50px;*/
+  }
+
+  .login-main-container h3 {
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  
+  .login-main-container .login-image {
+    width: 50%; /* Take up half of the container */
+    text-align: center; /* Center the image horizontally */
+  }
+  
+  .login-main-container .img-login {
+    max-width: 100%;
+    width: 600px;
+    height: 520px;
+    border-radius: 10px 0 0 10px;
+    margin-left: 0px;
+    /* Ensure the image doesn't overflow */
+  }
+  .login-main-container .login-inner-container h3 {
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .login-main-container .username label,
+  .email label,
+  .password label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .login-main-container .password label {
+    margin-top: 10px;
+  }
+  
+  .login-main-container .username input,
+  .email input,
+  .password input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .login-main-container .username ::placeholder,
+  .email ::placeholder,
+  .password ::placeholder {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .login-main-container .login-button {
+    width: 100%;
+    padding: 10px 100px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #65a964;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  .login-main-container .login-button:hover {
+    background-color: #287b28;
+  }
+  
+  .login-main-container .checkbox-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  
+  .login-main-container .checkbox {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+
+  .login-main-container .admin-checkbox {
+    margin-left: 10px;
+    font-weight: normal;
+  }
+  
+  .login-main-container .text {
+    margin-left: 10px;
+  }
+  
+  .login-main-container .text-register {
+    margin-top: 30px;
+  }
+  

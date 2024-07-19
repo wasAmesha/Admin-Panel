@@ -1,0 +1,81 @@
+.settingsContainer {
+    margin-top: 75px;
+    margin-left: 310px;
+    margin-right: 20px;
+    /*margin: 20px auto;*/
+    width: 75%;
+  }
+
+  .settingsContainer h1{
+    /*color: rgb(7, 92, 33);*/
+    font-weight: 600;
+  }
+
+  .settingsItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .settingsItem {
+    flex: 3;
+    min-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .settingsItem:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .settingsItem h2 {
+    margin: 15px 0 10px 0;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bolder;
+  }
+  
+  .settingsImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .settingsItem p {
+    margin: 0px 0px 30px 0px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .settingsButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f6c1b;
+    border: 2px solid #232222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settingsButton:hover {
+    background-color: #313233;
+    color: #fff;
+
+  }
+  
+  .settingsItem .settingsIcon {
+    margin-right: 8px;
+  }

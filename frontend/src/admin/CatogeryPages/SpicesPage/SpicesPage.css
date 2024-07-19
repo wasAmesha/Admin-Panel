@@ -1,0 +1,106 @@
+.admin-spices-container .nothing-cateogory-pages-below {
+  height: 50px;
+}
+.admin-spices-container .nothing-cateogory-pages {
+  height: 95px;
+}
+
+.admin-spices-container .spices-paragraph{
+  margin-left: 300px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+.admin-spices-container .products-container {
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 30px; 
+  padding: 0px;
+}
+
+.admin-spices-container .products-item {
+  background-color: #79ac78;
+  border: 1px solid #79ac78;
+  padding: 0px 0px 165px 0px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  gap: 10px;
+  width: 180px;
+  height: 100px;
+  max-height: 100px;
+  border-radius: 10px;
+  margin-left: 0px;
+}
+
+.admin-spices-container .product-item:hover {
+  transform: translateY(-5px); 
+}
+
+.admin-spices-container .products-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+  width: 250px;
+  height: 120px;
+}
+
+.admin-spices-container .products-item p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.admin-spices-container .products-details img {
+  max-width: 200px; 
+  height: 200px; 
+  max-height: 100px;
+  border-radius: 10px; 
+}
+
+.product-btn {
+  background-color: none;
+}
+
+.admin-spices-container .search-container {
+  margin-top: -80px;
+  margin-bottom: 50px;
+  margin-left: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px 0;
+}
+
+.admin-spices-container .search-input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; 
+  width: 300px; 
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.admin-spices-container .search-input:focus {
+  border-color: #000000; 
+}
+
+.admin-spices-container .search-button {
+  background-color: #79ac78;
+  border: none;
+  border-radius: 0 5px 5px 0; 
+  color: white;
+  padding: 11px;
+  cursor: pointer;
+  width: auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.admin-spices-container .search-button:hover {
+  background-color: #322d2d; 
+}

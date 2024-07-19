@@ -1,0 +1,196 @@
+.usersContainer {
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right: 20px;
+  /*margin: 20px auto;*/
+  width: 80%;
+
+}
+
+.usersContainer h1{
+  font-weight: 600;
+}
+
+.usersContainer .labelRow {
+  /* Your existing styles */
+  position: sticky; /* Add this */
+  top: 0; /* Add this */
+  background-color: white; /* Add this if necessary */
+}
+
+.usersContainer .tableContainer {
+  max-height: 530px; /* Adjust this value as needed */
+  overflow-y: auto;
+  position: relative;
+}
+
+.usersContainer .userTable {
+  margin-top: 20px;
+  width: 1150px;
+  border-collapse: collapse;
+}
+
+.usersContainer .userTable th,
+.userTable td {
+  border: none;
+  padding: 8px;
+}
+
+.usersContainer .userTable th {
+  display: none;
+}
+
+.usersContainer .userTable tr.selected {
+  background-color: #cce5cc; /* Light green */
+}
+
+.usersContainer .userTable tr:not(.labelRow):not(.spacerRow):not(.selected) {
+  background-color: #e1ffe1; /* Light gray */
+}
+
+.usersContainer .userTable tr:not(.labelRow):not(.spacerRow):not(.selected):hover {
+  border: 2px solid #08a024; /* Dark border on hover */
+  border-radius: 8px; /* Curve border edges */
+}
+
+.usersContainer .userTable tr:not(.labelRow):not(.spacerRow):not(.selected):hover td:first-child {
+  border-top-left-radius: 8px; /* Curve the top-left corner of the first cell */
+  border-bottom-left-radius: 8px; /* Curve the bottom-left corner of the first cell */
+}
+
+.usersContainer .userTable tr:not(.labelRow):not(.spacerRow):not(.selected):hover td:last-child {
+  border-top-right-radius: 8px; /* Curve the top-right corner of the last cell */
+  border-bottom-right-radius: 8px; /* Curve the bottom-right corner of the last cell */
+}
+
+.usersContainer .labelRow td {
+  height: 60px;
+  /*text-align: center;*/
+  font-weight: bold;
+  padding: 12px;
+}
+
+.usersContainer .spacerRow td {
+  height: 8px;
+}
+
+.usersContainer .userTable tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.usersContainer .userTable tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.usersContainer .viewIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #000000;
+  /*color: #19ab33;*/
+}
+
+.usersContainer .deleteIcon {
+  margin-left: 15px;
+  cursor: pointer;
+  color: #000000;
+}
+
+.usersContainer .viewIcon:hover {
+  color: #3d77ff;
+}
+
+.usersContainer .deleteIcon:hover {
+  color: #e32609;
+}
+
+
+.usersContainer .actions {
+  display: flex;
+  align-items: center;
+}
+
+.usersContainer .searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*
+  justify-content: space-between;*/
+  width: 80px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 530px;
+}
+
+.usersContainer .searchIcon {
+  margin-top: 5px;
+  margin-right: 10px; /* Adjust the space between icon and label */
+}
+
+.usersContainer .searchContainer label {
+  margin-right: 10px; /* Adjust the space as needed */
+  margin-top: 8px; /* Adjust the top margin for the label */
+  margin-right: 20px;
+}
+
+.usersContainer .searchContainer input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  width: 120px; /* Adjust the width as needed */
+}
+
+.usersContainer .searchContainer input[type="text"]:focus {
+  border-color: #068a17;
+  outline: none;
+}
+
+.usersContainer .clearButton {
+  background-color: #606160;
+  color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 3px 5px;
+  width: 80px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.usersContainer .clearButton:hover {
+  background-color: #353232;
+}
+
+.usersContainer .clearButton {
+  display: flex;
+  align-items: center;
+}
+
+.usersContainer .clearButton span {
+  margin-left: 5px; /* Adjust the spacing between icon and text */
+}
+
+.usersContainer .modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.usersContainer .modal-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 5px;
+}

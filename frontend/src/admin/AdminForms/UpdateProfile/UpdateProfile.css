@@ -1,0 +1,166 @@
+.update-profile-container {
+  max-width: 1150px;
+  padding: 80px;
+  margin-left: 290px;
+}
+
+.update-profile-container .update-profile-content {
+  display: flex;
+  align-items: stretch;
+  border: 2px solid #393a39;
+  border-radius: 8px;
+  box-shadow: 0 8px 10px rgba(66, 135, 87, 0.1);
+  background-color: #f9f9f9;
+}
+
+.update-profile-container .update-profile-image {
+  flex: 2.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.update-profile-container .update-profile-image img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px 0 0 8px;
+}
+
+.update-profile-container .update-profile-form {
+  flex: 3;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 0 10px 10px 0;
+}
+
+.update-profile-container .update-profile-form h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.update-profile-container .profile-picture-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.update-profile-container .update-profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+}
+
+.update-profile-container .custom-file-input {
+  background-color: #d5dcd5;
+  color: rgb(0, 0, 0);
+  padding: 4px 8px;
+  border: 1px solid rgb(130, 130, 130);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-profile-container .update-profile-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.update-profile-container .profile-detail {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.update-profile-container label {
+  font-weight: bold;
+}
+
+.update-profile-container input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-profile-container input[type="text"]:hover,
+input[type="email"]:hover {
+  border: 2px solid #1aa644;
+}
+
+.update-profile-container input:focus {
+  border-color: #1aa644;
+  box-shadow: 0 0 0 0.2rem rgba(0, 204, 3, 0.25);
+}
+
+.update-profile-container .update-button-container {
+  text-align: center;
+}
+
+.update-profile-container .update-button {
+  background-color: #328335;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.update-profile-container .update-button:disabled {
+  background-color: #900606;
+}
+
+.update-profile-container .update-button:hover:enabled {
+  background-color: #000000;
+}
+
+.update-profile-container .error-message {
+  color: red;
+  text-align: center;
+}
+
+.update-profile-container .modal {
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.update-profile-container .modal-content {
+  background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.update-profile-container .close-modal-button {
+  background-color: #328335;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}

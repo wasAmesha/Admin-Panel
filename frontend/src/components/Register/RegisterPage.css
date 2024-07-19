@@ -1,0 +1,169 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 90px;
+}
+
+.signup-inner-container {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.signup-video {
+  width: 50%;
+  text-align: center;
+}
+
+.signup-video {
+  position: relative;
+  display: flex;
+  flex-basis: 50%;
+  width: 70%;
+  height: 100%;
+
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.signup-video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.text-signup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, -108%);
+  z-index: 10;
+  text-align: center;
+}
+
+.text-signup h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.text-loginn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(24%, 767%);
+  z-index: 10;
+  text-align: center;
+}
+
+.text-loginn p {
+  color: white;
+  font-size: 18px;
+}
+
+.text-loginn a {
+  color: #79ac78;
+  font-size: 20px;
+  padding: 5px 30px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.img-logo-reg {
+  width: 45px;
+  height: 45px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-signup {
+  max-width: 100%;
+  width: 450px;
+  height: 450px;
+  border-radius: 26px;
+  margin-left: 20px;
+}
+
+.signup-inner-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.select-role select,
+.district select,
+.first-name input,
+.last-name input,
+.email input,
+.password input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.select-role label,
+.first-name label,
+.last-name label,
+.email label,
+.password label,
+.district label {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.sign-up-button {
+  width: 100%;
+  padding: 10px 70px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #79ac78;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sign-up-button:hover {
+  background-color: #b7ceb7;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

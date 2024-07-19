@@ -1,0 +1,99 @@
+.user-details-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #0b8b15; /* Add border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    margin-left: 650px;
+  }
+  
+  /* Style for the user details */
+  .user-details-container .user-detail {
+    margin-bottom: 10px;
+  }
+  
+  .user-details-container .user-detail label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .user-details-container .user-detail input {
+    width: calc(100% - 12px); /* Adjust input width */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    color: #333;
+    font-size: 16px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  /* Style for the loading message */
+  .user-details-container  .loading-message {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Style for the error message */
+  .user-details-container .error-message {
+    text-align: center;
+    color: #f00;
+  }
+  
+  /* Style for the headings */
+  .user-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+/* Style for the delete button container */
+.user-details-container .delete-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the delete button */
+  .user-details-container .delete-button {
+    padding: 10px 20px;
+    background-color: #bc0505; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-details-container .delete-button:hover {
+    background-color: #0c0c0c; /* Darker red color on hover */
+  }
+
+
+  .user-details-container .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .user-details-container .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+  }
